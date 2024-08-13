@@ -7,8 +7,7 @@ export async function validateUser(email:string, password: string){
         console.log('logado')
         return true
     }
-    console.log(false)
-    changeLocalStorage("valid",false)
+    return false
 }
 
 async function validateEmail(email:string){
