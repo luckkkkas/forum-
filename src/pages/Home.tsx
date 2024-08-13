@@ -18,11 +18,11 @@ export const Home = () => {
 
     return(
         <>
-            <h1>{user.users.name}</h1>
+            {/* <h1>{user.users.name}</h1>
             <h1>{user.users.id}</h1>
             <h1>{user.users.user}</h1>
             <h1>{user.users.password}</h1>
-            <h1>{user.users.email}</h1>
+            <h1>{user.users.email}</h1> */}
 
             <Button onClick={() => logout()}>Exit</Button>
         </>

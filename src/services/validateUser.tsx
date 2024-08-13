@@ -5,7 +5,6 @@ import { changeLocalStorage } from "./storage/storage";
 export async function validateUser(email:string, password: string){
     if(await validateEmail(email) && await validatePassword(password)){
         console.log('logado')
-        changeLocalStorage("valid",true)
         return true
     }
     console.log(false)
